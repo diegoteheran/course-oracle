@@ -1,0 +1,41 @@
+<script>
+
+    function media() {
+    
+    let total=0, prom, numDatos, i;
+    
+    numDatos = arguments.length;
+    
+    for (i=0; i<numDatos; i++)
+    
+    {
+    
+    total += arguments [i];
+    
+    }
+    
+    prom = total/numDatos;
+    
+    return prom;
+    
+    }
+    
+    </script>
+    
+    
+    
+    <body>
+    
+    
+    
+    <p> El promedio aritmético de 3, 50, 40 es:
+    
+    <script>
+    
+    document.write(media(3,40,25, 50, 40));
+    
+    </script>
+    
+    </p>
+    
+    </body>
